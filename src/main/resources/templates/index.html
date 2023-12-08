@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,5 +8,49 @@
 <body>
     <p>Get your student <a href="/student">here</a></p>
     <h1>Spring Boot!</h1>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfollio</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        h1, p,ol{
+            color: black;
+        }
+        img{
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+    <script>
+        x = 0
+        function lalala(){
+            const color = ['#FA9189','#FCAE7C','#FFE699','#B3F5BC','#D6F6FF','#D1BDFF'];
+            if (x == color.length){
+                x = 0
+            }
+            document.body.style.backgroundColor = color[x];
+            x = x + 1;
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>virsraksts</h1>
+    <button onclick="window.location.href = 'about.html'"> See info:</button>
+    <button onclick="lalala()">colour change</button>
+    <ol>
+        <li>varbut</li>
+        <li>gribas</li>
+    </ol>
+    <img src="https://www.tori.ng/userfiles/image/2017/dec/06/burning-House.jpg">
 </body>
 </html>
